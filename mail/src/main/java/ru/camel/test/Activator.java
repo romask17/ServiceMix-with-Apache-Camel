@@ -15,7 +15,7 @@ public class Activator implements BundleActivator {
         camelContext.addRoutes(new RouteBuilder() {
             @Override
             public void configure() throws Exception {
-                from("imaps://imap.yandex.ru?username=raskidan&password=2886890553roma$&delete=false&unseen=true&consumer.delay=1")
+                from("imaps://imap.yandex.ru?username=<user>&password=<password>&delete=false&unseen=true&consumer.delay=1")
                         .process(new LoggerClass());
 
             }

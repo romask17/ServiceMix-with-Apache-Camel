@@ -48,7 +48,7 @@
                                 <Import-Package>
                                     *;resolution:=optional
                                 </Import-Package>
-                                <Bundle-Activator>ru.camel.test.Activator</Bundle-Activator>
+                                <Bundle-Activator>ru.camel.mail.Activator</Bundle-Activator>
                             </instructions>
                         </configuration>
                     </execution>

@@ -1,4 +1,4 @@
-package ru.camel.test;
+package ru.camel.mail;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.core.osgi.OsgiDefaultCamelContext;

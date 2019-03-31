@@ -1,4 +1,4 @@
-package ru.camel.test;
+package ru.camel.mail;
 
 import org.apache.camel.Exchange;
 

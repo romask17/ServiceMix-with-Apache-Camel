@@ -46,9 +46,7 @@
                             <instructions>
                                 <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                                 <Bundle-Version>${project.version}</Bundle-Version>
-                                <Import-Package>
-                                    *;resolution:=optional
-                                </Import-Package>
+                                <Import-Package>*,org.apache.camel.core.osgi.*</Import-Package>
                                 <Bundle-Activator>ru.camel.csv.Activator</Bundle-Activator>
                             </instructions>
                         </configuration>
